@@ -13,24 +13,26 @@ class _Intro2State extends State<Intro2> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      body: Center(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Lottie.network(
-                'https://assets5.lottiefiles.com/packages/lf20_bsMaAjKPuo.json'),
-            const Text(
-              'Dall-E',
-              style: TextStyle(
-                  fontFamily: 'Cera Pro', fontSize: 28, color: Colors.white),
-            ),
-            const Text(
-              'Get inspired and stay creative with your personal assistant powered by Dall-E',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  fontFamily: 'Cera Pro', fontSize: 18, color: Colors.grey),
-            ),
-          ],
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Lottie.network(
+                  'https://assets5.lottiefiles.com/packages/lf20_bsMaAjKPuo.json'),
+              const Text(
+                'Dall-E',
+                style: TextStyle(
+                    fontFamily: 'Cera Pro', fontSize: 28, color: Colors.white),
+              ),
+              const Text(
+                'Get inspired and stay creative with your personal assistant powered by Dall-E',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontFamily: 'Cera Pro', fontSize: 18, color: Colors.grey),
+              ),
+            ],
+          ),
         ),
       ),
     );
