@@ -3,6 +3,7 @@
 Smart assistant made using flutter, Dall-E and chat GPT API
 
 go to : https://smart-voice-assistant.netlify.app/
+(**Web UI may look absurd coz this is app only)
 
 
 ## Screenshots/video
