@@ -30,9 +30,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Pallete.whiteColor,
         ),
       ),
-      home:
-       showHome ? const HomePage() :
-       const IntroScreen(),
+      home: showHome ? const HomePage() : const IntroScreen(),
     );
   }
 }
